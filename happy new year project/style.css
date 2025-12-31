@@ -104,12 +104,17 @@ z-index: 2;
   }
   25%{
     opacity: 0.75;
+    transform: translate(-15px,10vh);
   }
   50%{
-      opacity: 1;    
+      opacity: 1;  
+      transform: translate(18px,-20vh);  
+  }
+  75%{
+    transform: translate(-12px,-50vh);
   }
   100%{
-    transform: translateY(-80vh);
+    transform: translate(5px,-80vh);
     opacity: 1;
   }
   
