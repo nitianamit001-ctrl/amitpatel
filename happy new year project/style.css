@@ -343,3 +343,17 @@ p {
     background-color: #e63946;
   }
 }
+@media screen and (max-width:450px){
+.box{
+ transform: scale(.8);
+ transform-origin: center center;
+}
+.ballons img{
+  width: 40px;
+  height: auto;
+}
+.a5 p {
+        font-size: 14px; 
+    }
+  
+}
